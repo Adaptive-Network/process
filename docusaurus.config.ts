@@ -120,7 +120,7 @@ const config: Config = {
     navbar: {
       title: "Process",
       logo: {
-        alt: "My Site Logo",
+        alt: "process logo",
         src: "img/logo_v2_icon_green.svg",
         srcDark: "img/logo_v2_icon_white.svg",
       },
