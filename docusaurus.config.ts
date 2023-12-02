@@ -8,7 +8,7 @@ const config: Config = {
   favicon: "img/logo_v2_icon_green_small.ico",
 
   // Set the production url of your site here
-  url: "process.theadaptivenetwork.org",
+  url: "https://process.theadaptivenetwork.org",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
