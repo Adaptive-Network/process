@@ -40,6 +40,7 @@ const config: Config = {
       {
         docs: false,
         blog: false,
+
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -112,8 +113,28 @@ const config: Config = {
         authorsMapPath: "../authors.yml",
       },
     ],
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: "process",
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: "process",
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: "./blogs/process",
+        blogTitle: "Process",
+        blogDescription: "The process of documenting the process",
+        authorsMapPath: "../authors.yml",
+      },
+    ],
   ],
-
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
@@ -139,6 +160,11 @@ const config: Config = {
           label: "Facilitation",
           position: "left",
           to: "facilitation",
+        },
+        {
+          label: "The Process",
+          position: "left",
+          to: "process",
         },
         {
           href: "https://github.com/Adaptive-Network",
@@ -198,6 +224,11 @@ const config: Config = {
     },
     liveCoDeBlock: {
       playgroundPosition: "bottom",
+    },
+    colorMode: {
+      defaultMode: "dark",
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
     },
   } satisfies Preset.ThemeConfig,
 };
