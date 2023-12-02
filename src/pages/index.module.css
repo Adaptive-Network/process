@@ -16,8 +16,12 @@
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.background-image {
+  /* Replace with the path to your image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  height: 100vh; /* Make the container cover the entire viewport height */
+  width: 100%; /* Make the container cover the entire viewport width */
+  /* Add any additional styles or adjustments as needed */
 }

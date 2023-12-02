@@ -2,7 +2,7 @@
 title: Hello World, Hello Scientia
 description: Hello Scientia.
 slug: Hello-World-Hello-Scientia
-tags: [hello-world, scientia, connectomics]
+tags: [hello-world, scientia, connectomics, crazy-idea]
 image: https://i.imgur.com/mErPwqL.png
 authors: [jack]
 ---
@@ -13,7 +13,7 @@ Scientia is a knowledge management platform that is developed to enable users to
 
 <!-- truncate -->
 
-## Why scientia?
+## Why Scientia?
 
 Scientia (Latin for Knowledge) was an idea that I had when I was applying to medical school (that never happened). I was having a chat with my flatmate who was a 5th year med student at the time, and they were discussing the annoyances they were observing in the medical system where specialists didn't share notes with one another. They were frustrated as they couldn't understand how as future doctors, they were getting trained to treat the human body as a system or series of relationships, yet the consultants were treating each part of the body in isolation. My flatmate was also studying for their 5th year exams at the time and they were constantly retrieving information from a variety of places and trying to cram this information into a series of diagrams, paragraphs, drawings etc, to make sure that they could remember it all for their exams.
 
@@ -25,7 +25,7 @@ Google comes to mind, but that is too broad. So does [Notion](https://www.notion
 
 The other problem that I wanted to solve was the problem of a *concept*.
 
-## The trouble with concepts
+## The Trouble with "Concepts"
 
 A concept is *an abstract idea*. It could be a word. It could be a phrase. It could be a sound, a picture, a physical object, or it could be all of these things all at once. The tricky part about memory is that we all store details about the same concept *differently*. I remember something entirely differently to how you may remember the same thing. We also relate things to each other in our own unique ways.
 
@@ -36,7 +36,7 @@ Some of us may remember a recipe for chocolate chip cookies by their smell, othe
 The question I want to solve is the following:
 *How do I allow a user to construct a knowledge graph that **best reflects** the concepts that are important to them, and relate them to one another in ways that they find best suits the way they think?*
 
-## Mapping the "connectome" (not fully)
+## Mapping the "Connectome" (not really)
 
 For those of you not familiar with the field of *Connectomics*, the human [Connectome](https://www.sciencedirect.com/topics/medicine-and-dentistry/connectome) *describes the comprehensive set of neuronal connections of a species' central nervous system.* Plaing english; the connectome is a bunch of connected cells that talk to one another. These cells are in the brain, spinal chord and throughout the body.
 

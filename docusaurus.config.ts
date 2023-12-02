@@ -3,9 +3,9 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Processs",
+  title: "Process",
   tagline: "Share something small every day.",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo_v2_icon_green_small.ico",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-site.example.com",
@@ -121,7 +121,8 @@ const config: Config = {
       title: "Process",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/logo_v2_icon_green.svg",
+        srcDark: "img/logo_v2_icon_white.svg",
       },
       items: [
         {
