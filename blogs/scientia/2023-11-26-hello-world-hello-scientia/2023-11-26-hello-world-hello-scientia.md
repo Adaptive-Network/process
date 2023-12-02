@@ -50,6 +50,4 @@ However, what I am attempting to do is to allow a user to map their knowledge ne
 
 I accept that each user's graph will never be complete, and that is okay. I wouldn't want it to be. That is one of the things about neuroplasticity that amazes me; our brains are continually evolving and changing to our experiences, our environments, our feelings, our desires and our thoughts. This flexibility and adaptibility is what I want to build into Scientia.
 
-So come along for the ride as I try to build this thing. I will be documenting the process as I go, so sit down, buckle up and enjoy the f**king show.
-
-![The Show](img/the-show.gif)
+So come along for the ride as I try to build this thing. I will be documenting the process as I go, so sit down, buckle up and enjoy the ride :roller_coaster:
