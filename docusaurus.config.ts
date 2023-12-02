@@ -3,8 +3,8 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Process | Adaptive Network",
-  tagline: "Dinosaurs are cool",
+  title: "Processs",
+  tagline: "Share something small every day.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -15,8 +15,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "The Adaptive Network", // Usually your GitHub org/user name.
+  projectName: "process", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -29,14 +29,17 @@ const config: Config = {
     locales: ["en"],
   },
 
+  themes: ["@docusaurus/theme-mermaid"],
+  markdown: {
+    mermaid: true,
+  },
+
   presets: [
     [
       "classic",
       {
         docs: false,
-        blog: {
-          showReadingTime: true,
-        },
+        blog: false,
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -45,6 +48,7 @@ const config: Config = {
   ],
 
   plugins: [
+    "@docusaurus/theme-live-codeblock",
     [
       "@docusaurus/plugin-content-blog",
       {
@@ -56,32 +60,13 @@ const config: Config = {
          * URL route for the blog section of your site.
          * *DO NOT* include a trailing slash.
          */
-        routeBasePath: "/blog/scientia",
+        routeBasePath: "scientia",
         /**
          * Path to data on filesystem relative to site dir.
          */
-        path: "/blog/scientia",
+        path: "./blogs/scientia",
         blogTitle: "Scientia",
-        authorsMapPath: "../authors.yml",
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-blog",
-      {
-        /**
-         * Required for any multi-instance plugin
-         */
-        id: "facilitation",
-        /**
-         * URL route for the blog section of your site.
-         * *DO NOT* include a trailing slash.
-         */
-        routeBasePath: "/blog/facilitation",
-        /**
-         * Path to data on filesystem relative to site dir.
-         */
-        path: "/blog/facilitation",
-        blogTitle: "Facilitation",
+        blogDescription: "The work associated with Scientia",
         authorsMapPath: "../authors.yml",
       },
     ],
@@ -96,12 +81,34 @@ const config: Config = {
          * URL route for the blog section of your site.
          * *DO NOT* include a trailing slash.
          */
-        routeBasePath: "/blog/general",
+        routeBasePath: "general",
         /**
          * Path to data on filesystem relative to site dir.
          */
-        path: "/blog/general",
-        blogTitle: "General",
+        path: "./blogs/general",
+        blogTitle: "Scientia",
+        blogDescription: "The work associated with Scientia",
+        authorsMapPath: "../authors.yml",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: "facilitation",
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: "facilitation",
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: "./blogs/facilitation",
+        blogTitle: "Scientia",
+        blogDescription: "The work associated with Scientia",
         authorsMapPath: "../authors.yml",
       },
     ],
@@ -111,20 +118,26 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Process | Adaptive Network",
+      title: "Process",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
       },
       items: [
         {
-          label: "Blog",
-          to: "./blog",
-          items: [
-            { label: "Scientia", to: "/blog/scientia" },
-            { label: "Facilitation", to: "/blog/facilitation" },
-            { label: "General", to: "/blog/general" },
-          ],
+          label: "General",
+          position: "left",
+          to: "general",
+        },
+        {
+          label: "Scientia",
+          position: "left",
+          to: "scientia",
+        },
+        {
+          label: "Facilitation",
+          position: "left",
+          to: "facilitation",
         },
         {
           href: "https://github.com/Adaptive-Network",
@@ -137,41 +150,53 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Community",
+          title: "Blogs",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "General",
+              to: "/general",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Scientia",
+              to: "/scientia",
             },
             {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              label: "Facilitation",
+              to: "/facilitation",
             },
           ],
         },
         {
-          title: "More",
+          title: "Community",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
+              label: "Discord",
+              href: "https://discord.gg/xPrxDBxw",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/company/the-adaptive-network",
             },
           ],
         },
+        // {
+        //   title: "More",
+        //   items: [
+        //     {
+        //       label: "GitHub",
+        //       href: "https://github.com/facebook/docusaurus",
+        //     },
+        //   ],
+        // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The Adaptive Network`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    liveCoDeBlock: {
+      playgroundPosition: "bottom",
     },
   } satisfies Preset.ThemeConfig,
 };

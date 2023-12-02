@@ -2,14 +2,16 @@
 title: Hello World, Hello Scientia
 description: Hello Scientia.
 slug: Hello-World-Hello-Scientia
-tags: [hello, docusaurus-v2]
+tags: [hello-world, scientia, connectomics]
 image: https://i.imgur.com/mErPwqL.png
-author: "jack"
+authors: [jack]
 ---
 
 Welcome to the beginning of Scientia.
 
 Scientia is a knowledge management platform that is developed to enable users to assemble knowledge networks from a variety of sources and media, relate ideas to one another and to quickly retrieve said information using simple inputs (text, a couple clicks, a slide of a handle, etc).
+
+<!-- truncate -->
 
 ## Why scientia?
 
