@@ -15,8 +15,9 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "The Adaptive Network", // Usually your GitHub org/user name.
+  organizationName: "Adaptive Network", // Usually your GitHub org/user name.
   projectName: "process", // Usually your repo name.
+  deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
