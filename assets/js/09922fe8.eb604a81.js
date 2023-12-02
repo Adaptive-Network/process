@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprocess=self.webpackChunkprocess||[]).push([[1287],{8427:s=>{s.exports=JSON.parse('{"label":"crazy-idea","permalink":"/scientia/tags/crazy-idea","allTagsPath":"/scientia/tags","count":1,"unlisted":false}')}}]);

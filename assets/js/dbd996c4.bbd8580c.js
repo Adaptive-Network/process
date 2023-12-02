@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprocess=self.webpackChunkprocess||[]).push([[9335],{4951:s=>{s.exports=JSON.parse('{"label":"crazy-idea","permalink":"/process/tags/crazy-idea","allTagsPath":"/process/tags","count":1,"unlisted":false}')}}]);

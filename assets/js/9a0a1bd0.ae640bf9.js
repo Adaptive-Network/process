@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprocess=self.webpackChunkprocess||[]).push([[6133],{4885:s=>{s.exports=JSON.parse('{"label":"hello-world","permalink":"/scientia/tags/hello-world","allTagsPath":"/scientia/tags","count":1,"unlisted":false}')}}]);

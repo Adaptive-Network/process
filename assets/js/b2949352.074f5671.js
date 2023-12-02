@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprocess=self.webpackChunkprocess||[]).push([[1761],{3655:e=>{e.exports=JSON.parse('{"permalink":"/scientia","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"The work associated with Scientia","blogTitle":"Scientia"}')}}]);

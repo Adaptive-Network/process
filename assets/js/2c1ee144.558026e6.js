@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprocess=self.webpackChunkprocess||[]).push([[7813],{8947:s=>{s.exports=JSON.parse('{"label":"connectomics","permalink":"/process/tags/connectomics","allTagsPath":"/process/tags","count":1,"unlisted":false}')}}]);

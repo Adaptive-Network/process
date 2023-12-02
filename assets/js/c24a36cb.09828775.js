@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprocess=self.webpackChunkprocess||[]).push([[6849],{4977:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"What is the Adaptive Network?","permalink":"/general/what-is-the-adaptive-network","unlisted":false}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprocess=self.webpackChunkprocess||[]).push([[9381],{3983:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Facilitation at The Adaptive Network","permalink":"/facilitation/facilitation-at-the-adaptive-network","unlisted":false}]}')}}]);

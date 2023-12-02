@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://process.theadaptivenetwork.org/facilitation</id>
+    <title>Process Blog</title>
+    <updated>2023-12-01T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://process.theadaptivenetwork.org/facilitation"/>
+    <subtitle>Process Blog</subtitle>
+    <icon>https://process.theadaptivenetwork.org/img/logo_v2_icon_green_small.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Facilitation at The Adaptive Network]]></title>
+        <id>https://process.theadaptivenetwork.org/facilitation/facilitation-at-the-adaptive-network</id>
+        <link href="https://process.theadaptivenetwork.org/facilitation/facilitation-at-the-adaptive-network"/>
+        <updated>2023-12-01T00:00:00.000Z</updated>
+        <author>
+            <name>Jack Walker</name>
+            <uri>https://jack.walker.co.nz</uri>
+        </author>
+        <category label="facilitation" term="facilitation"/>
+    </entry>
+</feed>
