@@ -15,8 +15,10 @@ To be clear, I have never built a full-stack application by myself before. I hav
 
 I have a vague idea of some of the technologies that I may use, and I have a rough list of features I wish to implement, but it is a hard thing to decide where to begin.
 
-So, of course, I googled *how to build a full stack application*, and I asked chatGPT.
 <!--truncate-->
+
+So, of course, I googled *how to build a full stack application*, and I asked chatGPT.
+
 ### The Google results
 
 Google gave me a bunch of links to random guides on different technology stacks like *Django*, *React*, *HTML/CSS*, *Svelte* and so on. I found a pretty good guide [here](https://www.freecodecamp.org/news/how-to-build-a-full-stack-application-from-start-to-finish/) at FreeCoDeCamp.
