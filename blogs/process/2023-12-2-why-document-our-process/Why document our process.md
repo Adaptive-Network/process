@@ -13,6 +13,8 @@ Not long ago, I read the book *Show your Work* by Austin Kleon. In it, he discus
 
 In my experience, the corporate world is entirely different.
 
+<!--truncate-->
+
 ### Hide and Seek in the Corporate World
 
 The corporate world is obsessed with perfect; we are after the end product. We are brainwashed into desiring the shiny thing at the end of the process, and we look for perfection. Corporations are driven by competition, and competition by being better than our competitors. We only share the shiny end product as this is a way of showing superiority over our competitors, and is a way of “winning the game”.
@@ -49,7 +51,13 @@ Many chefs and restaurateurs have become rich and famous by sharing their recipe
 
 Open-source software development has also shown that being open and willing to share is a winning strategy.
 
-Other arguments can be made for sharing. Kleon notes that sharing your process might actually be most valuable if the products of your work aren’t easily shared, if you’re still in the apprentice stage of your work, if you can’t just slap up a portfolio and call it a day, or if your process doesn’t necessarily lead to tangible finished products. He also raises the point that in this day and age, if your work isn’t online, it doesn’t exist. He says that if you want people to know about what you do and the things you care about, you have to share.
+Other arguments can be made for sharing. Kleon notes that sharing your process might actually be most valuable if the products of your work aren’t easily shared, if you’re still in the apprentice stage of your work, if you can’t just slap up a portfolio and call it a day, or if your process doesn’t necessarily lead to tangible finished products. He also raises the point that in this day and age, if your work isn’t online, it doesn’t exist.
+
+Kleon also says that if you want people to know about what you do and the things you care about, you have to share. However, you should share for the right reasons. The world is filled with people who share for the sake of gaining popularity and who wish to get rich by sharing. Kleon argues a different perspective. He believes that eople waste time and energy trying to make connections instead of getting good at what they do, when “being good at things is the only thing that earns you clout or connections."
+
+The difference between the two is that the aforementioned people *cough* influenceers *cough* tend to share the end-product, the shiny thing, the perfect moment, rather than documenting the process or the art of what they do. I believe that there is more beauty in showing the mundane and the ugly, over countless perfect end-products.
+
+Sharing breeds connection. It shows vulnerability and humility. It embraces humanity. By sharing, we are showing where we are right now, how we have gotten to here, where we have come from, and where we hope to head. It gives people an inside scoop into what we do, and it increases the knowledge base of ourselves and those who follow us.
 
 ### TL;DR
 
