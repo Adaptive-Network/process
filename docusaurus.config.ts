@@ -142,8 +142,8 @@ const config: Config = {
       title: "Process",
       logo: {
         alt: "process logo",
-        src: "img/logo_v2_icon_green.svg",
-        srcDark: "img/logo_v2_icon_white.svg",
+        src: "img/logo_v2_icon_green_small.svg",
+        srcDark: "img/logo_v2_icon_white_small.svg",
       },
       items: [
         {
