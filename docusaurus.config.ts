@@ -217,6 +217,13 @@ const config: Config = {
         // },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} The Adaptive Network`,
+      logo: {
+        alt: "Adaptive Network Logo",
+        src: "img/logo_v2_icon_green_small.svg",
+        srcDark: "img/logo_v2_icon_white_small.svg",
+        width: 64,
+        height: 64,
+      },
     },
     prism: {
       theme: prismThemes.github,
