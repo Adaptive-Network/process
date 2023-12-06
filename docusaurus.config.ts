@@ -134,6 +134,27 @@ const config: Config = {
         authorsMapPath: "../authors.yml",
       },
     ],
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: "hoptimize",
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: "hoptimize",
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: "./blogs/hoptimize",
+        blogTitle: "Hoptimize",
+        blogDescription: "Hoptimize: A grasshopper debug tool",
+        authorsMapPath: "../authors.yml",
+      },
+    ],
   ],
   themeConfig: {
     // Replace with your project's social card
@@ -146,26 +167,31 @@ const config: Config = {
         srcDark: "img/logo_v2_icon_white_small.svg",
       },
       items: [
-        {
-          label: "General",
-          position: "left",
-          to: "general",
-        },
+        // {
+        //   label: "General",
+        //   position: "left",
+        //   to: "general",
+        // },
         {
           label: "Scientia",
           position: "left",
           to: "scientia",
         },
-        {
-          label: "Facilitation",
-          position: "left",
-          to: "facilitation",
-        },
-        {
-          label: "The Process",
-          position: "left",
-          to: "process",
-        },
+        // {
+        //   label: "Hoptimize",
+        //   position: "left",
+        //   to: "hoptimize",
+        // },
+        // {
+        //   label: "Facilitation",
+        //   position: "left",
+        //   to: "facilitation",
+        // },
+        // {
+        //   label: "The Process",
+        //   position: "left",
+        //   to: "process",
+        // },
         {
           href: "https://github.com/Adaptive-Network",
           label: "GitHub",
@@ -179,17 +205,25 @@ const config: Config = {
         {
           title: "Blogs",
           items: [
-            {
-              label: "General",
-              to: "/general",
-            },
+            // {
+            //   label: "General",
+            //   to: "/general",
+            // },
             {
               label: "Scientia",
               to: "/scientia",
             },
+            // {
+            //   label: "Hoptimize",
+            //   to: "/hoptimize",
+            // },
+            // {
+            //   label: "Facilitation",
+            //   to: "/facilitation",
+            // },
             {
-              label: "Facilitation",
-              to: "/facilitation",
+              label: "The Process",
+              to: "/process",
             },
           ],
         },
@@ -203,6 +237,15 @@ const config: Config = {
             {
               label: "LinkedIn",
               href: "https://www.linkedin.com/company/the-adaptive-network",
+            },
+          ],
+        },
+        {
+          title: "Contact Us",
+          items: [
+            {
+              label: "Email",
+              href: "mailto:hello@theadaptivenetwork.org",
             },
           ],
         },
