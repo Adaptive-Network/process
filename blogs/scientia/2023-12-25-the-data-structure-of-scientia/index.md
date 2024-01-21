@@ -52,7 +52,7 @@ Centrality is typically used in graph theory to find nodes in the graph that hav
 
 #### Page Rank
 
-Page rank 
+Page rank
 
 ### Concept
 
