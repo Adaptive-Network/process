@@ -7,6 +7,8 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "nuxt-svgo",
     "nuxt-icon",
+    "@pinia/nuxt",
+    "@nuxt/image",
   ],
   colorMode: {
     classSuffix: "",
