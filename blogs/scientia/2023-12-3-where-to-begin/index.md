@@ -5,6 +5,7 @@ slug: where-to-begin
 tags: [beginning scientia, learning]
 image: https://i.imgur.com/mErPwqL.png
 authors: [jack]
+draft: true
 ---
 
 ## So, where do we begin?

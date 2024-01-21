@@ -5,6 +5,7 @@ slug: why-document-our-process
 tags: [hello-world, scientia, connectomics, crazy-idea]
 image: https://i.imgur.com/mErPwqL.png
 authors: [jack]
+draft: true
 ---
 
 ## Why document our process?

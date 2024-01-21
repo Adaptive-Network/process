@@ -5,6 +5,7 @@ slug: Hello-World-Hello-Scientia
 tags: [hello-world, scientia, connectomics, crazy-idea]
 image: https://i.imgur.com/mErPwqL.png
 authors: [jack]
+draft: true
 ---
 
 Welcome to the beginning of Scientia.

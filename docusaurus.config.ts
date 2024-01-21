@@ -90,6 +90,7 @@ const config: Config = {
         blogTitle: "Scientia",
         blogDescription: "The work associated with Scientia",
         authorsMapPath: "../authors.yml",
+        sortPosts: "ascending",
       },
     ],
     [
