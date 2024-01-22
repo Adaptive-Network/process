@@ -1,15 +1,13 @@
 <template>
   <div>
-    <header>
-      <FullHeader />
+    <header class="fixed w-screen">
+      <HeadersFullHeader />
     </header>
-    <main>
+    <main class="bg-gray-50 dark:bg-gray-900 h-screen overflow-y-scroll pt-32">
       <slot></slot>
     </main>
     <footer></footer>
   </div>
 </template>
 
-<script setup lang="ts">
-import FullHeader from "~/components/Headers/FullHeader.vue";
-</script>
+<script setup lang="ts"></script>
